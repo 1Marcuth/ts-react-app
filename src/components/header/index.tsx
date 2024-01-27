@@ -1,10 +1,10 @@
 import { FC } from "react"
 
-import "./style.scss"
+import styles from "./style.module.scss"
 
 const Header: FC = () => {
     return (
-        <header className="header">
+        <header className={styles["header"]}>
             <h1>Header</h1>
         </header>
     )
