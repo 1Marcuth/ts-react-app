@@ -1,5 +1,4 @@
 import { FC } from "react"
-import saveImage from "../../utils/save-image"
 
 import styles from "./style.module.scss"
 
